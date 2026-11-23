@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard de Vendas</title>
+<style>
+:root {
+--navy: #142d4e;
+--blue: #2563eb;
+--green: #16a34a;
+--bg: #f3f6fb;
+--ink: #172b4d;
+--muted: #64748b;
+--line: #e5eaf2;
+}
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+background: var(--bg);
+font-family: Arial, sans-serif;
+color: var(--ink);
+}
+.shell {
+display: flex;
+min-height: 100vh;
+}
+.sidebar {
+width: 245px;
+background: var(--navy);
+color: white;
+padding: 26px 18px;
+}
+.brand {
+font-size: 18px;
+font-weight: bold;
+}
+.side-label {
+font-size: 11px;
+color: #9db1cb;
+margin: 38px 0 12px;
+}
+.nav {
+padding: 12px;
+border-radius: 8px;
+background: #25466e;
+}
+.side-note {
+font-size: 12px;
+line-height: 1.6;
+color: #bdcce0;
+margin-top: 24px;
+}
+main {
+flex: 1;
+min-width: 0;
+padding: 30px;
+}
+.top {
+display: flex;
+justify-content: space-between;
+margin-bottom: 24px;
+}
+.eyebrow {
+color: var(--blue);
+font-size: 11px;
+font-weight: bold;
+text-transform: uppercase;
+}
+h1 {
+font-size: 27px;
+margin: 7px 0;
+}
+.sub {
+font-size: 13px;
+color: var(--muted);
+}
+.status {
+background: #e8f7ed;
+color: #16803b;
+padding: 8px 12px;
+border-radius: 20px;
+font-size: 11px;
+height: fit-content;
+}
+.filters {
+display: flex;
+align-items: end;
+gap: 14px;
+flex-wrap: wrap;
+background: white;
+border: 1px solid var(--line);
+padding: 15px;
+border-radius: 13px;
+margin-bottom: 18px;
+}
+.field {
+display: flex;
+flex-direction: column;
+gap: 6px;
+}
+.field label {
+font-size: 11px;
+color: var(--muted);
+font-weight: bold;
+}
+.field select,
+.field input {
+border: 1px solid #d9e1ec;
+border-radius: 8px;
+padding: 9px;
+background: white;
+font-size: 12px;
+}
+button {
+border: 0;
+background: #edf3ff;
+color: var(--blue);
+font-weight: bold;
+border-radius: 8px;
+padding: 10px 14px;
+cursor: pointer;
+}
+.kpis,
+.charts {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 16px;
+margin-bottom: 18px;
+}
+.kpi,
+.panel {
+background: white;
+border: 1px solid var(--line);
+border-radius: 13px;
+padding: 18px;
+}
+.kpi {
+position: relative;
+}
+.kpi-label {
+font-size: 11px;
+color: var(--muted);
+font-weight: bold;
+text-transform: uppercase;
+}
+.kpi-value {
+font-size: 27px;
+font-weight: bold;
+margin: 9px 0;
+}
+.kpi-foot,
+.hint {
+font-size: 11px;
+color: var(--muted);
+}
+.panel h2 {
+font-size: 14px;
+margin: 0 0 5px;
+}
+.chart {
+width: 100%;
+height: 245px;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+font-size: 12px;
+white-space: nowrap;
+}
+th {
+text-align: left;
+color: var(--muted);
+background: #f8fafc;
+padding: 11px;
+}
+td {
+padding: 11px;
+border-top: 1px solid #edf1f6;
+}
+.table-wrap {
+overflow-x: auto;
+}
+.tag {
+background: #edf3ff;
+color: #2759a9;
+padding: 4px 8px;
+border-radius: 20px;
+}
+.table-meta {
+font-size: 11px;
+color: var(--muted);
+margin-top: 12px;
+}
+.footer {
+text-align: center;
+color: #8a97a9;
+font-size: 10px;
+padding: 15px;
+}
+@media(max-width: 900px) {
+.sidebar {
+width: 195px;
+}
+.charts {
+grid-template-columns: 1fr;
+}
+}
+@media(max-width: 620px) {
+.shell {
+display: block;
+}
+.sidebar {
+width: 100%;
+padding: 15px;
+}
+.side-label,
+.side-note,
+.nav {
+display: none;
+}
+main {
+padding: 20px 13px;
+}
+.kpis {
+gap: 9px;
+}
+.kpi-value {
+font-size: 20px;
+}
+.charts {
+grid-template-columns: 1fr;
+}
+.field,
+.field select,
+.field input {
+width: 100%;
+}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="sidebar">
+<div class="brand">▦ INFO STORE</div>
+<div class="side-label">MENU PRINCIPAL</div>
+<div class="nav">▣ Visão geral de vendas</div>
+<div class="side-note">
+Acompanhe os resultados comerciais e analise o desempenho da loja de
+informática.
+</div>
+</aside>
+<main>
+<header class="top">
+<div>
+<div class="eyebrow">Painel de gestão comercial</div>
+<h1>Dashboard de Vendas</h1>
+<div class="sub">
+Visão geral do desempenho da Loja de Informática
+</div>
+</div>
+<div class="status">● Dados carregados</div>
+</header>
+<section class="filters">
+<div class="field">
+<label>CATEGORIA</label>
+<select id="categoria">
+<option value="Todas">Todas as categorias</option>
+</select>
+</div>
+<div class="field">
+<label>DATA INICIAL</label>
+<input type="date" id="inicio">
+</div>
+<div class="field">
+<label>DATA FINAL</label>
+<input type="date" id="fim">
+</div>
+<button id="limpar">Limpar filtros ↺</button>
+</section>
+<section class="kpis">
+<div class="kpi">
+<div class="kpi-label">Faturamento total</div>
+<div class="kpi-value" id="total">—</div>
+<div class="kpi-foot">Soma do faturamento das vendas filtradas</div>
+</div>
+<div class="kpi">
+<div class="kpi-label">Quantidade vendida</div>
+<div class="kpi-value" id="qtd">—</div>
+<div class="kpi-foot">Total de unidades comercializadas</div>
+</div>
+</section>
+<section class="charts">
+<div class="panel">
+<h2>Evolução mensal do faturamento</h2>
+<div class="hint">Faturamento em reais ao longo dos meses</div>
+<svg id="mensal" class="chart" viewBox="0 0 600 245"></svg>
+</div>
+<div class="panel">
+<h2>Faturamento por produto</h2>
+<div class="hint">Comparação do faturamento por produto</div>
+<svg id="produto" class="chart" viewBox="0 0 600 245"></svg>
+</div>
+</section>
+<section class="charts">
+<div class="panel">
+<h2>Faturamento por categoria</h2>
+<div class="hint">Participação de cada categoria no faturamento</div>
+<svg id="fatcat" class="chart" viewBox="0 0 600 245"></svg>
+</div>
+<div class="panel">
+<h2>Quantidade vendida por categoria</h2>
+<div class="hint">Unidades comercializadas por categoria</div>
+<svg id="qcat" class="chart" viewBox="0 0 600 245"></svg>
+</div>
+</section>
+<section class="panel">
+<h2>Registros de vendas</h2>
+<div class="hint">Detalhamento dos dados conforme os filtros selecionados</div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Produto</th>
+<th>Categoria</th>
+<th>Valor unitário</th>
+<th>Quantidade</th>
+<th>Faturamento</th>
+</tr>
+</thead>
+<tbody id="linhas"></tbody>
+</table>
+</div>
+<div class="table-meta" id="contagem"></div>
+</section>
+<div class="footer">
+Projeto Integrador • Dashboard de Vendas — Loja de Informática
+</div>
+</main>
+</div>
+<script>
+// Dados das vendas
+// O arquivo dados.csv deve estar na mesma pasta deste HTML.
+let dados = [];
+const fmt = valor =>
+valor.toLocaleString('pt-BR', {
+style: 'currency',
+currency: 'BRL'
+});
+const num = valor =>
+valor.toLocaleString('pt-BR');
+const meses = [
+'Jan', 'Fev', 'Mar', 'Abr',
+'Mai', 'Jun', 'Jul', 'Ago',
+'Set', 'Out', 'Nov', 'Dez'
+];
+// Carrega os dados do CSV
+async function carregarDados() {
+const resposta = await fetch('dados.csv');
+const texto = await resposta.text();
+const linhas = texto.trim().split(/\r?\n/);
+dados = linhas.slice(1).map(linha => {
+const colunas = linha.split(',');
+const [dia, mes, ano] = colunas[0].split('/');
+return {
+data: `${ano}-${mes}-${dia}`,
+dataBR: colunas[0],
+produto: colunas[1],
+categoria: colunas[2],
+valorUnitario: Number(colunas[3]),
+quantidade: Number(colunas[4]),
+faturamento: Number(colunas[5])
+};
+});
+iniciarDashboard();
+}
+// Elementos
+const sel = document.getElementById('categoria');
+function iniciarDashboard() {
+const categorias = [
+...new Set(dados.map(d => d.categoria))
+].sort();
+categorias.forEach(categoria => {
+const opcao = document.createElement('option');
+opcao.value = categoria;
+opcao.textContent = categoria;
+sel.appendChild(opcao);
+});
+const datas = dados.map(d => d.data).sort();
+document.getElementById('inicio').value = datas[0];
+document.getElementById('fim').value = datas[datas.length - 1];
+atualizarDashboard();
+}
+// Texto dos gráficos
+function svgText(x, y, texto, classe = 'axis-text', anchor = 'middle') {
+return `
+<text
+x="${x}"
+y="${y}"
+class="${classe}"
+text-anchor="${anchor}">
+${texto}
+</text>
+`;
+}
+// Gráfico de linha
+function lineChart(elemento, itens) {
+const W = 600;
+const H = 245;
+const L = 48;
+const R = 15;
+const T = 12;
+const B = 35;
+const largura = W - L - R;
+const altura = H - T - B;
+const maximo = Math.max(...itens.map(item => item.v), 1);
+const pontos = itens.map((item, i) => {
+const x = L + (
+itens.length === 1
+? largura / 2
+: i * largura / (itens.length - 1)
+);
+const y = T + altura - (item.v / maximo) * altura;
+return [x, y];
+});
+let svg = '';
+for (let i = 0; i < 4; i++) {
+const y = T + i * altura / 3;
+svg += `
+<line
+x1="${L}"
+y1="${y}"
+x2="${W - R}"
+y2="${y}"
+stroke="#e8edf4"
+/>
+`;
+svg += svgText(
+L - 8,
+y + 3,
+num(Math.round(maximo * (1 - i / 3))),
+'axis-text',
+'end'
+);
+}
+const caminho = pontos.map((ponto, i) =>
+(i ? 'L' : 'M') + ponto.join(' ')
+).join(' ');
+svg += `
+<path
+d="${caminho}"
+fill="none"
+stroke="#2563eb"
+stroke-width="3"
+/>
+`;
+pontos.forEach((ponto, i) => {
+svg += `
+<circle
+cx="${ponto[0]}"
+cy="${ponto[1]}"
+r="4"
+fill="#2563eb"
+/>
+`;
+svg += svgText(
+ponto[0],
+H - 12,
+itens[i].l
+);
+});
+elemento.innerHTML = svg;
+}
+// Gráficos de barras
+function barChart(elemento, itens, cor) {
+const W = 600;
+const H = 245;
+const L = 125;
+const R = 45;
+const T = 8;
+const B = 12;
+const altura = H - T - B;
+const linha = altura / Math.max(itens.length, 1);
+const maximo = Math.max(...itens.map(item => item.v), 1);
+let svg = '';
+itens.forEach((item, i) => {
+const y = T + i * linha + linha * 0.2;
+const alturaBarra = linha * 0.55;
+const larguraBarra =
+(W - L - R) * item.v / maximo;
+svg += svgText(
+L - 10,
+y + alturaBarra * 0.75,
+item.l,
+'bar-label',
+'end'
+);
+svg += `
+<rect
+x="${L}"
+y="${y}"
+width="${Math.max(1, larguraBarra)}"
+height="${alturaBarra}"
+rx="5"
+fill="${cor}"
+/>
+`;
+svg += svgText(
+Math.min(W - 4, L + larguraBarra + 7),
+y + alturaBarra * 0.75,
+num(item.v),
+'bar-value',
+'start'
+);
+});
+elemento.innerHTML = svg;
+}
+// Atualiza os indicadores e gráficos
+function atualizarDashboard() {
+const inicio = document.getElementById('inicio').value;
+const fim = document.getElementById('fim').value;
+const categoria = sel.value;
+const filtrados = dados.filter(d =>
+(categoria === 'Todas' || d.categoria === categoria) &&
+(!inicio || d.data >= inicio) &&
+(!fim || d.data <= fim)
+);
+// Indicadores
+const faturamento = filtrados.reduce(
+(total, d) => total + d.faturamento, 0
+);
+const quantidade = filtrados.reduce(
+(total, d) => total + d.quantidade, 0
+);
+document.getElementById('total').textContent = fmt(faturamento);
+document.getElementById('qtd').textContent =
+num(quantidade) + ' un.';
+// Faturamento mensal
+const mensal = {};
+filtrados.forEach(d => {
+const mes = d.data.slice(0, 7);
+mensal[mes] = (mensal[mes] || 0) + d.faturamento;
+});
+const dadosMensais = Object.entries(mensal)
+.sort((a, b) => a[0].localeCompare(b[0]))
+.map(([mes, valor]) => ({
+l: meses[Number(mes.slice(5)) - 1] + '/' + mes.slice(2, 4),
+v: valor
+}));
+lineChart(
+document.getElementById('mensal'),
+dadosMensais.length ? dadosMensais : [{ l: 'Sem dados', v: 0 }]
+);
+// Faturamento por produto
+const produtos = {};
+filtrados.forEach(d => {
+produtos[d.produto] =
+(produtos[d.produto] || 0) + d.faturamento;
+});
+const dadosProdutos = Object.entries(produtos)
+.sort((a, b) => b[1] - a[1])
+.map(([l, v]) => ({ l, v }));
+barChart(
+document.getElementById('produto'),
+dadosProdutos,
+'#3978e7'
+);
+// Faturamento e quantidade por categoria
+const faturamentoCategoria = {};
+const quantidadeCategoria = {};
+filtrados.forEach(d => {
+faturamentoCategoria[d.categoria] =
+(faturamentoCategoria[d.categoria] || 0) + d.faturamento;
+quantidadeCategoria[d.categoria] =
+(quantidadeCategoria[d.categoria] || 0) + d.quantidade;
+});
+const dadosFaturamentoCategoria =
+Object.entries(faturamentoCategoria)
+.sort((a, b) => b[1] - a[1])
+.map(([l, v]) => ({ l, v }));
+const dadosQuantidadeCategoria =
+Object.entries(quantidadeCategoria)
+.sort((a, b) => b[1] - a[1])
+.map(([l, v]) => ({ l, v }));
+barChart(
+document.getElementById('fatcat'),
+dadosFaturamentoCategoria,
+'#3978e7'
+);
+barChart(
+document.getElementById('qcat'),
+dadosQuantidadeCategoria,
+'#12a36b'
+);
+// Tabela de vendas
+document.getElementById('linhas').innerHTML =
+filtrados
+.sort((a, b) => b.data.localeCompare(a.data))
+.map(d => `
+<tr>
+<td>${d.dataBR}</td>
+<td><b>${d.produto}</b></td>
+<td><span class="tag">${d.categoria}</span></td>
+<td>${fmt(d.valorUnitario)}</td>
+<td>${num(d.quantidade)}</td>
+<td><b>${fmt(d.faturamento)}</b></td>
+</tr>
+`)
+.join('');
+document.getElementById('contagem').textContent =
+`Exibindo ${filtrados.length} de ${dados.length} registros de vendas.`;
+}
+// Eventos dos filtros
+['categoria', 'inicio', 'fim'].forEach(id => {
+document.getElementById(id).addEventListener(
+'change',
+atualizarDashboard
+);
+});
+// Limpar filtros
+document.getElementById('limpar').addEventListener('click', () => {
+sel.value = 'Todas';
+const datas = dados.map(d => d.data).sort();
+document.getElementById('inicio').value = datas[0];
+document.getElementById('fim').value = datas[datas.length - 1];
+atualizarDashboard();
+});
+// Inicialização
+carregarDados();
+</script>
+</body>
+</html>
