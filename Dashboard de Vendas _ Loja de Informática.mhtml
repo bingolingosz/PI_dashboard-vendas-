@@ -1,0 +1,545 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/Thayna/Downloads/PI-Prot%C3%B3tipo%20do%20dashboard.html
+Subject: =?utf-8?Q?Dashboard=20de=20Vendas=20|=20Loja=20de=20Inform=C3=A1tica?=
+Date: Mon, 23 Nov 2026 03:26:01 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Z3IKd2ih53XQsn622F5BeYHZIDzKDC62QedCq1OzDw----"
+
+
+------MultipartBoundary--Z3IKd2ih53XQsn622F5BeYHZIDzKDC62QedCq1OzDw----
+Content-Type: text/html
+Content-ID: <frame-A898EB63A12615CB2D9F05BA2E7D679E@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/Thayna/Downloads/PI-Prot%C3%B3tipo%20do%20dashboard.html
+
+<!DOCTYPE html><html lang=3D"pt-BR"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-5edda950-3d8e-4bc8-858d-23b11792e1fa@mhtml.blink" /=
+>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Dashboard de Vendas | Loja de Inform=C3=A1tica</title>
+</head>
+<body><div class=3D"shell">
+<aside class=3D"sidebar"><div class=3D"brand"><div class=3D"brand-icon">=E2=
+=96=A6</div><div>INFO STORE<br><small style=3D"font-size:9px;color:#b9c9dd;=
+font-weight:500;letter-spacing:1px">GEST=C3=83O COMERCIAL</small></div></di=
+v><div class=3D"side-label">MENU PRINCIPAL</div><div class=3D"nav">=E2=96=
+=A3 &nbsp; Vis=C3=A3o geral de vendas</div><div class=3D"side-note">Acompan=
+he os resultados comerciais e analise o desempenho da loja de inform=C3=A1t=
+ica.</div></aside>
+<main>
+<header class=3D"top"><div><div class=3D"eyebrow">Painel de gest=C3=A3o com=
+ercial</div><h1>Dashboard de Vendas</h1><div class=3D"sub">Vis=C3=A3o geral=
+ do desempenho da Loja de Inform=C3=A1tica</div></div><div class=3D"status"=
+>=E2=97=8F Dados carregados</div></header>
+<section class=3D"filters"><div class=3D"field"><label for=3D"categoria">CA=
+TEGORIA</label><select id=3D"categoria"><option value=3D"Todas">Todas as ca=
+tegorias</option><option value=3D"Cabeamento">Cabeamento</option><option va=
+lue=3D"Componente">Componente</option><option value=3D"Perif=C3=A9ricos">Pe=
+rif=C3=A9ricos</option><option value=3D"Rede">Rede</option></select></div><=
+div class=3D"field"><label for=3D"inicio">DATA INICIAL</label><input type=
+=3D"date" id=3D"inicio"></div><div class=3D"field"><label for=3D"fim">DATA =
+FINAL</label><input type=3D"date" id=3D"fim"></div><button class=3D"reset" =
+id=3D"limpar">Limpar filtros =E2=86=BA</button></section>
+<section class=3D"kpis"><div class=3D"kpi"><div class=3D"kpi-label">Faturam=
+ento total</div><div class=3D"kpi-value" id=3D"total">R$&nbsp;249.695,00</d=
+iv><div class=3D"kpi-foot">Soma do faturamento das vendas filtradas</div></=
+div><div class=3D"kpi"><div class=3D"kpi-label">Quantidade vendida</div><di=
+v class=3D"kpi-value" id=3D"qtd">1.859 un.</div><div class=3D"kpi-foot">Tot=
+al de unidades comercializadas</div></div></section>
+<section class=3D"charts"><div class=3D"panel"><h2>Evolu=C3=A7=C3=A3o mensa=
+l do faturamento</h2><div class=3D"hint">Faturamento em reais ao longo dos =
+meses</div><svg id=3D"mensal" class=3D"chart" viewBox=3D"0 0 600 245" prese=
+rveAspectRatio=3D"none"><defs><linearGradient id=3D"fade" x1=3D"0" x2=3D"0"=
+ y1=3D"0" y2=3D"1"><stop offset=3D"0%" stop-color=3D"#2563eb" stop-opacity=
+=3D".22"></stop><stop offset=3D"100%" stop-color=3D"#2563eb" stop-opacity=
+=3D"0"></stop></linearGradient></defs><line x1=3D"48" y1=3D"12" x2=3D"585" =
+y2=3D"12" class=3D"axis"></line><text x=3D"40" y=3D"15" class=3D"axis-text"=
+ text-anchor=3D"end">46.225</text><line x1=3D"48" y1=3D"78" x2=3D"585" y2=
+=3D"78" class=3D"axis"></line><text x=3D"40" y=3D"81" class=3D"axis-text" t=
+ext-anchor=3D"end">30.817</text><line x1=3D"48" y1=3D"144" x2=3D"585" y2=3D=
+"144" class=3D"axis"></line><text x=3D"40" y=3D"147" class=3D"axis-text" te=
+xt-anchor=3D"end">15.408</text><line x1=3D"48" y1=3D"210" x2=3D"585" y2=3D"=
+210" class=3D"axis"></line><text x=3D"40" y=3D"213" class=3D"axis-text" tex=
+t-anchor=3D"end">0</text><path d=3D"M48 179.93055705786912 L101.7 166.22368=
+84802596 L155.4 157.37847485127097 L209.1 120.0058409951325 L262.8 113.9448=
+3504597079 L316.5 102.87225527312062 L370.2 108.29075175770689 L423.9 123.0=
+6846944294213 L477.6 83.29713358572202 L531.3 73.44532179556518 L585 12 L 5=
+85 210 L 48 210 Z" class=3D"area"></path> <path d=3D"M48 179.93055705786912=
+ L101.7 166.2236884802596 L155.4 157.37847485127097 L209.1 120.005840995132=
+5 L262.8 113.94483504597079 L316.5 102.87225527312062 L370.2 108.2907517577=
+0689 L423.9 123.06846944294213 L477.6 83.29713358572202 L531.3 73.445321795=
+56518 L585 12" class=3D"line"></path><circle cx=3D"48" cy=3D"179.9305570578=
+6912" r=3D"4" class=3D"dot"></circle><text x=3D"48" y=3D"233" class=3D"axis=
+-text" text-anchor=3D"middle">Jan/26</text><circle cx=3D"101.7" cy=3D"166.2=
+236884802596" r=3D"4" class=3D"dot"></circle><text x=3D"101.7" y=3D"233" cl=
+ass=3D"axis-text" text-anchor=3D"middle">Fev/26</text><circle cx=3D"155.4" =
+cy=3D"157.37847485127097" r=3D"4" class=3D"dot"></circle><text x=3D"155.4" =
+y=3D"233" class=3D"axis-text" text-anchor=3D"middle">Mar/26</text><circle c=
+x=3D"209.1" cy=3D"120.0058409951325" r=3D"4" class=3D"dot"></circle><text x=
+=3D"209.1" y=3D"233" class=3D"axis-text" text-anchor=3D"middle">Abr/26</tex=
+t><circle cx=3D"262.8" cy=3D"113.94483504597079" r=3D"4" class=3D"dot"></ci=
+rcle><text x=3D"262.8" y=3D"233" class=3D"axis-text" text-anchor=3D"middle"=
+>Mai/26</text><circle cx=3D"316.5" cy=3D"102.87225527312062" r=3D"4" class=
+=3D"dot"></circle><text x=3D"316.5" y=3D"233" class=3D"axis-text" text-anch=
+or=3D"middle">Jun/26</text><circle cx=3D"370.2" cy=3D"108.29075175770689" r=
+=3D"4" class=3D"dot"></circle><text x=3D"370.2" y=3D"233" class=3D"axis-tex=
+t" text-anchor=3D"middle">Jul/26</text><circle cx=3D"423.9" cy=3D"123.06846=
+944294213" r=3D"4" class=3D"dot"></circle><text x=3D"423.9" y=3D"233" class=
+=3D"axis-text" text-anchor=3D"middle">Ago/26</text><circle cx=3D"477.6" cy=
+=3D"83.29713358572202" r=3D"4" class=3D"dot"></circle><text x=3D"477.6" y=
+=3D"233" class=3D"axis-text" text-anchor=3D"middle">Set/26</text><circle cx=
+=3D"531.3" cy=3D"73.44532179556518" r=3D"4" class=3D"dot"></circle><text x=
+=3D"531.3" y=3D"233" class=3D"axis-text" text-anchor=3D"middle">Out/26</tex=
+t><circle cx=3D"585" cy=3D"12" r=3D"4" class=3D"dot"></circle><text x=3D"58=
+5" y=3D"233" class=3D"axis-text" text-anchor=3D"middle">Nov/26</text></svg>=
+</div><div class=3D"panel"><h2>Faturamento por produto</h2><div class=3D"hi=
+nt">Compara=C3=A7=C3=A3o do faturamento por produto</div><svg id=3D"produto=
+" class=3D"chart" viewBox=3D"0 0 600 245" preserveAspectRatio=3D"none"><tex=
+t x=3D"115" y=3D"25.2265625" class=3D"bar-label" text-anchor=3D"end">Mem=C3=
+=B3ria RAM</text><rect x=3D"125" y=3D"13.625" width=3D"430" height=3D"15.46=
+8750000000002" rx=3D"5" class=3D"bar"></rect><text x=3D"562" y=3D"25.226562=
+5" class=3D"bar-value" text-anchor=3D"start">98.700</text><text x=3D"115" y=
+=3D"53.3515625" class=3D"bar-label" text-anchor=3D"end">Teclado</text><rect=
+ x=3D"125" y=3D"41.75" width=3D"220.22796352583586" height=3D"15.4687500000=
+00002" rx=3D"5" class=3D"bar"></rect><text x=3D"352.2279635258359" y=3D"53.=
+3515625" class=3D"bar-value" text-anchor=3D"start">50.550</text><text x=3D"=
+115" y=3D"81.4765625" class=3D"bar-label" text-anchor=3D"end">SSD</text><re=
+ct x=3D"125" y=3D"69.875" width=3D"217.83181357649443" height=3D"15.4687500=
+00000002" rx=3D"5" class=3D"bar"></rect><text x=3D"349.8318135764944" y=3D"=
+81.4765625" class=3D"bar-value" text-anchor=3D"start">50.000</text><text x=
+=3D"115" y=3D"109.6015625" class=3D"bar-label" text-anchor=3D"end">Mouse</t=
+ext><rect x=3D"125" y=3D"98" width=3D"123.51063829787235" height=3D"15.4687=
+50000000002" rx=3D"5" class=3D"bar"></rect><text x=3D"255.51063829787233" y=
+=3D"109.6015625" class=3D"bar-value" text-anchor=3D"start">28.350</text><te=
+xt x=3D"115" y=3D"137.7265625" class=3D"bar-label" text-anchor=3D"end">Rote=
+ador</text><rect x=3D"125" y=3D"126.125" width=3D"53.848024316109424" heigh=
+t=3D"15.468750000000002" rx=3D"5" class=3D"bar"></rect><text x=3D"185.84802=
+431610942" y=3D"137.7265625" class=3D"bar-value" text-anchor=3D"start">12.3=
+60</text><text x=3D"115" y=3D"165.8515625" class=3D"bar-label" text-anchor=
+=3D"end">Cabo USB</text><rect x=3D"125" y=3D"154.25" width=3D"22.5673758865=
+2482" height=3D"15.468750000000002" rx=3D"5" class=3D"bar"></rect><text x=
+=3D"154.56737588652481" y=3D"165.8515625" class=3D"bar-value" text-anchor=
+=3D"start">5.180</text><text x=3D"115" y=3D"193.9765625" class=3D"bar-label=
+" text-anchor=3D"end">Cabo VGA</text><rect x=3D"125" y=3D"182.375" width=3D=
+"11.828267477203648" height=3D"15.468750000000002" rx=3D"5" class=3D"bar"><=
+/rect><text x=3D"143.82826747720364" y=3D"193.9765625" class=3D"bar-value" =
+text-anchor=3D"start">2.715</text><text x=3D"115" y=3D"222.1015625" class=
+=3D"bar-label" text-anchor=3D"end">Placa de rede</text><rect x=3D"125" y=3D=
+"210.5" width=3D"8.016210739614994" height=3D"15.468750000000002" rx=3D"5" =
+class=3D"bar"></rect><text x=3D"140.016210739615" y=3D"222.1015625" class=
+=3D"bar-value" text-anchor=3D"start">1.840</text></svg></div></section>
+<section class=3D"charts"><div class=3D"panel"><h2>Faturamento por categori=
+a</h2><div class=3D"hint">Participa=C3=A7=C3=A3o de cada categoria no fatur=
+amento</div><svg id=3D"fatcat" class=3D"chart" viewBox=3D"0 0 600 245" pres=
+erveAspectRatio=3D"none"><text x=3D"115" y=3D"42.453125" class=3D"bar-label=
+" text-anchor=3D"end">Componente</text><rect x=3D"125" y=3D"19.25" width=3D=
+"430" height=3D"30.937500000000004" rx=3D"5" class=3D"bar"></rect><text x=
+=3D"562" y=3D"42.453125" class=3D"bar-value" text-anchor=3D"start">148.700<=
+/text><text x=3D"115" y=3D"98.703125" class=3D"bar-label" text-anchor=3D"en=
+d">Perif=C3=A9ricos</text><rect x=3D"125" y=3D"75.5" width=3D"228.157363819=
+77135" height=3D"30.937500000000004" rx=3D"5" class=3D"bar"></rect><text x=
+=3D"360.1573638197714" y=3D"98.703125" class=3D"bar-value" text-anchor=3D"s=
+tart">78.900</text><text x=3D"115" y=3D"154.953125" class=3D"bar-label" tex=
+t-anchor=3D"end">Rede</text><rect x=3D"125" y=3D"131.75" width=3D"41.062542=
+030934765" height=3D"30.937500000000004" rx=3D"5" class=3D"bar"></rect><tex=
+t x=3D"173.06254203093476" y=3D"154.953125" class=3D"bar-value" text-anchor=
+=3D"start">14.200</text><text x=3D"115" y=3D"211.203125" class=3D"bar-label=
+" text-anchor=3D"end">Cabeamento</text><rect x=3D"125" y=3D"188" width=3D"2=
+2.830195023537325" height=3D"30.937500000000004" rx=3D"5" class=3D"bar"></r=
+ect><text x=3D"154.83019502353733" y=3D"211.203125" class=3D"bar-value" tex=
+t-anchor=3D"start">7.895</text></svg></div><div class=3D"panel"><h2>Quantid=
+ade vendida por categoria</h2><div class=3D"hint">Unidades comercializadas =
+por categoria</div><svg id=3D"qcat" class=3D"chart" viewBox=3D"0 0 600 245"=
+ preserveAspectRatio=3D"none"><text x=3D"115" y=3D"42.453125" class=3D"bar-=
+label" text-anchor=3D"end">Perif=C3=A9ricos</text><rect x=3D"125" y=3D"19.2=
+5" width=3D"430" height=3D"30.937500000000004" rx=3D"5" class=3D"bar2"></re=
+ct><text x=3D"562" y=3D"42.453125" class=3D"bar-value" text-anchor=3D"start=
+">742</text><text x=3D"115" y=3D"98.703125" class=3D"bar-label" text-anchor=
+=3D"end">Componente</text><rect x=3D"125" y=3D"75.5" width=3D"279.326145552=
+56066" height=3D"30.937500000000004" rx=3D"5" class=3D"bar2"></rect><text x=
+=3D"411.32614555256066" y=3D"98.703125" class=3D"bar-value" text-anchor=3D"=
+start">482</text><text x=3D"115" y=3D"154.953125" class=3D"bar-label" text-=
+anchor=3D"end">Cabeamento</text><rect x=3D"125" y=3D"131.75" width=3D"254.9=
+8652291105122" height=3D"30.937500000000004" rx=3D"5" class=3D"bar2"></rect=
+><text x=3D"386.9865229110512" y=3D"154.953125" class=3D"bar-value" text-an=
+chor=3D"start">440</text><text x=3D"115" y=3D"211.203125" class=3D"bar-labe=
+l" text-anchor=3D"end">Rede</text><rect x=3D"125" y=3D"188" width=3D"113.00=
+539083557952" height=3D"30.937500000000004" rx=3D"5" class=3D"bar2"></rect>=
+<text x=3D"245.00539083557953" y=3D"211.203125" class=3D"bar-value" text-an=
+chor=3D"start">195</text></svg></div></section>
+<section class=3D"panel table-panel"><h2>Registros de vendas</h2><div class=
+=3D"hint">Detalhamento dos dados conforme os filtros selecionados</div><div=
+ class=3D"table-wrap"><table><thead><tr><th>Data</th><th>Produto</th><th>Ca=
+tegoria</th><th>Valor unit=C3=A1rio</th><th>Quantidade</th><th>Faturamento<=
+/th></tr></thead><tbody id=3D"linhas"><tr><td>30/11/2026</td><td><b>SSD</b>=
+</td><td><span class=3D"tag">Componente</span></td><td>R$&nbsp;250,00</td><=
+td>40</td><td><b>R$&nbsp;10.000,00</b></td></tr><tr><td>28/11/2026</td><td>=
+<b>Cabo VGA</b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$&nb=
+sp;15,00</td><td>27</td><td><b>R$&nbsp;405,00</b></td></tr><tr><td>25/11/20=
+26</td><td><b>Roteador</b></td><td><span class=3D"tag">Rede</span></td><td>=
+R$&nbsp;120,00</td><td>21</td><td><b>R$&nbsp;2.520,00</b></td></tr><tr><td>=
+20/11/2026</td><td><b>Mem=C3=B3ria RAM</b></td><td><span class=3D"tag">Comp=
+onente</span></td><td>R$&nbsp;350,00</td><td>50</td><td><b>R$&nbsp;17.500,0=
+0</b></td></tr><tr><td>18/11/2026</td><td><b>Cabo USB</b></td><td><span cla=
+ss=3D"tag">Cabeamento</span></td><td>R$&nbsp;20,00</td><td>45</td><td><b>R$=
+&nbsp;900,00</b></td></tr><tr><td>15/11/2026</td><td><b>Placa de rede</b></=
+td><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;20,00</td><td>15</td=
+><td><b>R$&nbsp;300,00</b></td></tr><tr><td>08/11/2026</td><td><b>Mouse</b>=
+</td><td><span class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;70,00<=
+/td><td>80</td><td><b>R$&nbsp;5.600,00</b></td></tr><tr><td>02/11/2026</td>=
+<td><b>Teclado</b></td><td><span class=3D"tag">Perif=C3=A9ricos</span></td>=
+<td>R$&nbsp;150,00</td><td>60</td><td><b>R$&nbsp;9.000,00</b></td></tr><tr>=
+<td>30/10/2026</td><td><b>SSD</b></td><td><span class=3D"tag">Componente</s=
+pan></td><td>R$&nbsp;250,00</td><td>30</td><td><b>R$&nbsp;7.500,00</b></td>=
+</tr><tr><td>28/10/2026</td><td><b>Cabo VGA</b></td><td><span class=3D"tag"=
+>Cabeamento</span></td><td>R$&nbsp;15,00</td><td>26</td><td><b>R$&nbsp;390,=
+00</b></td></tr><tr><td>25/10/2026</td><td><b>Roteador</b></td><td><span cl=
+ass=3D"tag">Rede</span></td><td>R$&nbsp;120,00</td><td>16</td><td><b>R$&nbs=
+p;1.920,00</b></td></tr><tr><td>20/10/2026</td><td><b>Mem=C3=B3ria RAM</b><=
+/td><td><span class=3D"tag">Componente</span></td><td>R$&nbsp;350,00</td><t=
+d>35</td><td><b>R$&nbsp;12.250,00</b></td></tr><tr><td>18/10/2026</td><td><=
+b>Cabo USB</b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$&nbs=
+p;20,00</td><td>29</td><td><b>R$&nbsp;580,00</b></td></tr><tr><td>15/10/202=
+6</td><td><b>Placa de rede</b></td><td><span class=3D"tag">Rede</span></td>=
+<td>R$&nbsp;20,00</td><td>12</td><td><b>R$&nbsp;240,00</b></td></tr><tr><td=
+>08/10/2026</td><td><b>Mouse</b></td><td><span class=3D"tag">Perif=C3=A9ric=
+os</span></td><td>R$&nbsp;70,00</td><td>45</td><td><b>R$&nbsp;3.150,00</b><=
+/td></tr><tr><td>02/10/2026</td><td><b>Teclado</b></td><td><span class=3D"t=
+ag">Perif=C3=A9ricos</span></td><td>R$&nbsp;150,00</td><td>39</td><td><b>R$=
+&nbsp;5.850,00</b></td></tr><tr><td>30/09/2026</td><td><b>SSD</b></td><td><=
+span class=3D"tag">Componente</span></td><td>R$&nbsp;250,00</td><td>19</td>=
+<td><b>R$&nbsp;4.750,00</b></td></tr><tr><td>28/09/2026</td><td><b>Cabo VGA=
+</b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$&nbsp;15,00</t=
+d><td>20</td><td><b>R$&nbsp;300,00</b></td></tr><tr><td>25/09/2026</td><td>=
+<b>Roteador</b></td><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;120=
+,00</td><td>9</td><td><b>R$&nbsp;1.080,00</b></td></tr><tr><td>20/09/2026</=
+td><td><b>Mem=C3=B3ria RAM</b></td><td><span class=3D"tag">Componente</span=
+></td><td>R$&nbsp;350,00</td><td>39</td><td><b>R$&nbsp;13.650,00</b></td></=
+tr><tr><td>18/09/2026</td><td><b>Cabo USB</b></td><td><span class=3D"tag">C=
+abeamento</span></td><td>R$&nbsp;20,00</td><td>26</td><td><b>R$&nbsp;520,00=
+</b></td></tr><tr><td>15/09/2026</td><td><b>Placa de rede</b></td><td><span=
+ class=3D"tag">Rede</span></td><td>R$&nbsp;20,00</td><td>19</td><td><b>R$&n=
+bsp;380,00</b></td></tr><tr><td>08/09/2026</td><td><b>Mouse</b></td><td><sp=
+an class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;70,00</td><td>50</=
+td><td><b>R$&nbsp;3.500,00</b></td></tr><tr><td>02/09/2026</td><td><b>Tecla=
+do</b></td><td><span class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;=
+150,00</td><td>36</td><td><b>R$&nbsp;5.400,00</b></td></tr><tr><td>30/08/20=
+26</td><td><b>SSD</b></td><td><span class=3D"tag">Componente</span></td><td=
+>R$&nbsp;250,00</td><td>16</td><td><b>R$&nbsp;4.000,00</b></td></tr><tr><td=
+>28/08/2026</td><td><b>Cabo VGA</b></td><td><span class=3D"tag">Cabeamento<=
+/span></td><td>R$&nbsp;15,00</td><td>15</td><td><b>R$&nbsp;225,00</b></td><=
+/tr><tr><td>25/08/2026</td><td><b>Roteador</b></td><td><span class=3D"tag">=
+Rede</span></td><td>R$&nbsp;120,00</td><td>6</td><td><b>R$&nbsp;720,00</b><=
+/td></tr><tr><td>20/08/2026</td><td><b>Mem=C3=B3ria RAM</b></td><td><span c=
+lass=3D"tag">Componente</span></td><td>R$&nbsp;350,00</td><td>14</td><td><b=
+>R$&nbsp;4.900,00</b></td></tr><tr><td>18/08/2026</td><td><b>Cabo USB</b></=
+td><td><span class=3D"tag">Cabeamento</span></td><td>R$&nbsp;20,00</td><td>=
+8</td><td><b>R$&nbsp;160,00</b></td></tr><tr><td>15/08/2026</td><td><b>Plac=
+a de rede</b></td><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;20,00=
+</td><td>2</td><td><b>R$&nbsp;40,00</b></td></tr><tr><td>08/08/2026</td><td=
+><b>Mouse</b></td><td><span class=3D"tag">Perif=C3=A9ricos</span></td><td>R=
+$&nbsp;70,00</td><td>50</td><td><b>R$&nbsp;3.500,00</b></td></tr><tr><td>02=
+/08/2026</td><td><b>Teclado</b></td><td><span class=3D"tag">Perif=C3=A9rico=
+s</span></td><td>R$&nbsp;150,00</td><td>45</td><td><b>R$&nbsp;6.750,00</b><=
+/td></tr><tr><td>30/07/2026</td><td><b>SSD</b></td><td><span class=3D"tag">=
+Componente</span></td><td>R$&nbsp;250,00</td><td>20</td><td><b>R$&nbsp;5.00=
+0,00</b></td></tr><tr><td>28/07/2026</td><td><b>Cabo VGA</b></td><td><span =
+class=3D"tag">Cabeamento</span></td><td>R$&nbsp;15,00</td><td>13</td><td><b=
+>R$&nbsp;195,00</b></td></tr><tr><td>25/07/2026</td><td><b>Roteador</b></td=
+><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;120,00</td><td>11</td>=
+<td><b>R$&nbsp;1.320,00</b></td></tr><tr><td>20/07/2026</td><td><b>Mem=C3=
+=B3ria RAM</b></td><td><span class=3D"tag">Componente</span></td><td>R$&nbs=
+p;350,00</td><td>24</td><td><b>R$&nbsp;8.400,00</b></td></tr><tr><td>18/07/=
+2026</td><td><b>Cabo USB</b></td><td><span class=3D"tag">Cabeamento</span><=
+/td><td>R$&nbsp;20,00</td><td>27</td><td><b>R$&nbsp;540,00</b></td></tr><tr=
+><td>15/07/2026</td><td><b>Placa de rede</b></td><td><span class=3D"tag">Re=
+de</span></td><td>R$&nbsp;20,00</td><td>12</td><td><b>R$&nbsp;240,00</b></t=
+d></tr><tr><td>08/07/2026</td><td><b>Mouse</b></td><td><span class=3D"tag">=
+Perif=C3=A9ricos</span></td><td>R$&nbsp;70,00</td><td>40</td><td><b>R$&nbsp=
+;2.800,00</b></td></tr><tr><td>02/07/2026</td><td><b>Teclado</b></td><td><s=
+pan class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;150,00</td><td>35=
+</td><td><b>R$&nbsp;5.250,00</b></td></tr><tr><td>30/06/2026</td><td><b>SSD=
+</b></td><td><span class=3D"tag">Componente</span></td><td>R$&nbsp;250,00</=
+td><td>18</td><td><b>R$&nbsp;4.500,00</b></td></tr><tr><td>28/06/2026</td><=
+td><b>Cabo VGA</b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$=
+&nbsp;15,00</td><td>12</td><td><b>R$&nbsp;180,00</b></td></tr><tr><td>25/06=
+/2026</td><td><b>Roteador</b></td><td><span class=3D"tag">Rede</span></td><=
+td>R$&nbsp;120,00</td><td>10</td><td><b>R$&nbsp;1.200,00</b></td></tr><tr><=
+td>20/06/2026</td><td><b>Mem=C3=B3ria RAM</b></td><td><span class=3D"tag">C=
+omponente</span></td><td>R$&nbsp;350,00</td><td>32</td><td><b>R$&nbsp;11.20=
+0,00</b></td></tr><tr><td>18/06/2026</td><td><b>Cabo USB</b></td><td><span =
+class=3D"tag">Cabeamento</span></td><td>R$&nbsp;20,00</td><td>29</td><td><b=
+>R$&nbsp;580,00</b></td></tr><tr><td>15/06/2026</td><td><b>Placa de rede</b=
+></td><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;20,00</td><td>5</=
+td><td><b>R$&nbsp;100,00</b></td></tr><tr><td>08/06/2026</td><td><b>Mouse</=
+b></td><td><span class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;70,0=
+0</td><td>35</td><td><b>R$&nbsp;2.450,00</b></td></tr><tr><td>02/06/2026</t=
+d><td><b>Teclado</b></td><td><span class=3D"tag">Perif=C3=A9ricos</span></t=
+d><td>R$&nbsp;150,00</td><td>32</td><td><b>R$&nbsp;4.800,00</b></td></tr><t=
+r><td>30/05/2026</td><td><b>SSD</b></td><td><span class=3D"tag">Componente<=
+/span></td><td>R$&nbsp;250,00</td><td>22</td><td><b>R$&nbsp;5.500,00</b></t=
+d></tr><tr><td>28/05/2026</td><td><b>Cabo VGA</b></td><td><span class=3D"ta=
+g">Cabeamento</span></td><td>R$&nbsp;15,00</td><td>25</td><td><b>R$&nbsp;37=
+5,00</b></td></tr><tr><td>25/05/2026</td><td><b>Roteador</b></td><td><span =
+class=3D"tag">Rede</span></td><td>R$&nbsp;120,00</td><td>12</td><td><b>R$&n=
+bsp;1.440,00</b></td></tr><tr><td>20/05/2026</td><td><b>Mem=C3=B3ria RAM</b=
+></td><td><span class=3D"tag">Componente</span></td><td>R$&nbsp;350,00</td>=
+<td>25</td><td><b>R$&nbsp;8.750,00</b></td></tr><tr><td>18/05/2026</td><td>=
+<b>Cabo USB</b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$&nb=
+sp;20,00</td><td>19</td><td><b>R$&nbsp;380,00</b></td></tr><tr><td>15/05/20=
+26</td><td><b>Placa de rede</b></td><td><span class=3D"tag">Rede</span></td=
+><td>R$&nbsp;20,00</td><td>3</td><td><b>R$&nbsp;60,00</b></td></tr><tr><td>=
+08/05/2026</td><td><b>Mouse</b></td><td><span class=3D"tag">Perif=C3=A9rico=
+s</span></td><td>R$&nbsp;70,00</td><td>31</td><td><b>R$&nbsp;2.170,00</b></=
+td></tr><tr><td>02/05/2026</td><td><b>Teclado</b></td><td><span class=3D"ta=
+g">Perif=C3=A9ricos</span></td><td>R$&nbsp;150,00</td><td>25</td><td><b>R$&=
+nbsp;3.750,00</b></td></tr><tr><td>30/04/2026</td><td><b>SSD</b></td><td><s=
+pan class=3D"tag">Componente</span></td><td>R$&nbsp;250,00</td><td>9</td><t=
+d><b>R$&nbsp;2.250,00</b></td></tr><tr><td>28/04/2026</td><td><b>Cabo VGA</=
+b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$&nbsp;15,00</td>=
+<td>8</td><td><b>R$&nbsp;120,00</b></td></tr><tr><td>25/04/2026</td><td><b>=
+Roteador</b></td><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;120,00=
+</td><td>5</td><td><b>R$&nbsp;600,00</b></td></tr><tr><td>20/04/2026</td><t=
+d><b>Mem=C3=B3ria RAM</b></td><td><span class=3D"tag">Componente</span></td=
+><td>R$&nbsp;350,00</td><td>31</td><td><b>R$&nbsp;10.850,00</b></td></tr><t=
+r><td>18/04/2026</td><td><b>Cabo USB</b></td><td><span class=3D"tag">Cabeam=
+ento</span></td><td>R$&nbsp;20,00</td><td>25</td><td><b>R$&nbsp;500,00</b><=
+/td></tr><tr><td>15/04/2026</td><td><b>Placa de rede</b></td><td><span clas=
+s=3D"tag">Rede</span></td><td>R$&nbsp;20,00</td><td>8</td><td><b>R$&nbsp;16=
+0,00</b></td></tr><tr><td>08/04/2026</td><td><b>Mouse</b></td><td><span cla=
+ss=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;70,00</td><td>29</td><td=
+><b>R$&nbsp;2.030,00</b></td></tr><tr><td>02/04/2026</td><td><b>Teclado</b>=
+</td><td><span class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;150,00=
+</td><td>30</td><td><b>R$&nbsp;4.500,00</b></td></tr><tr><td>30/03/2026</td=
+><td><b>SSD</b></td><td><span class=3D"tag">Componente</span></td><td>R$&nb=
+sp;250,00</td><td>6</td><td><b>R$&nbsp;1.500,00</b></td></tr><tr><td>28/03/=
+2026</td><td><b>Cabo VGA</b></td><td><span class=3D"tag">Cabeamento</span><=
+/td><td>R$&nbsp;15,00</td><td>17</td><td><b>R$&nbsp;255,00</b></td></tr><tr=
+><td>25/03/2026</td><td><b>Roteador</b></td><td><span class=3D"tag">Rede</s=
+pan></td><td>R$&nbsp;120,00</td><td>6</td><td><b>R$&nbsp;720,00</b></td></t=
+r><tr><td>20/03/2026</td><td><b>Mem=C3=B3ria RAM</b></td><td><span class=3D=
+"tag">Componente</span></td><td>R$&nbsp;350,00</td><td>14</td><td><b>R$&nbs=
+p;4.900,00</b></td></tr><tr><td>18/03/2026</td><td><b>Cabo USB</b></td><td>=
+<span class=3D"tag">Cabeamento</span></td><td>R$&nbsp;20,00</td><td>19</td>=
+<td><b>R$&nbsp;380,00</b></td></tr><tr><td>15/03/2026</td><td><b>Placa de r=
+ede</b></td><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;20,00</td><=
+td>4</td><td><b>R$&nbsp;80,00</b></td></tr><tr><td>08/03/2026</td><td><b>Mo=
+use</b></td><td><span class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp=
+;70,00</td><td>25</td><td><b>R$&nbsp;1.750,00</b></td></tr><tr><td>02/03/20=
+26</td><td><b>Teclado</b></td><td><span class=3D"tag">Perif=C3=A9ricos</spa=
+n></td><td>R$&nbsp;150,00</td><td>18</td><td><b>R$&nbsp;2.700,00</b></td></=
+tr><tr><td>28/02/2026</td><td><b>Cabo VGA</b></td><td><span class=3D"tag">C=
+abeamento</span></td><td>R$&nbsp;15,00</td><td>10</td><td><b>R$&nbsp;150,00=
+</b></td></tr><tr><td>28/02/2026</td><td><b>SSD</b></td><td><span class=3D"=
+tag">Componente</span></td><td>R$&nbsp;250,00</td><td>15</td><td><b>R$&nbsp=
+;3.750,00</b></td></tr><tr><td>25/02/2026</td><td><b>Roteador</b></td><td><=
+span class=3D"tag">Rede</span></td><td>R$&nbsp;120,00</td><td>2</td><td><b>=
+R$&nbsp;240,00</b></td></tr><tr><td>20/02/2026</td><td><b>Mem=C3=B3ria RAM<=
+/b></td><td><span class=3D"tag">Componente</span></td><td>R$&nbsp;350,00</t=
+d><td>9</td><td><b>R$&nbsp;3.150,00</b></td></tr><tr><td>18/02/2026</td><td=
+><b>Cabo USB</b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$&n=
+bsp;20,00</td><td>12</td><td><b>R$&nbsp;240,00</b></td></tr><tr><td>15/02/2=
+026</td><td><b>Placa de rede</b></td><td><span class=3D"tag">Rede</span></t=
+d><td>R$&nbsp;20,00</td><td>7</td><td><b>R$&nbsp;140,00</b></td></tr><tr><t=
+d>08/02/2026</td><td><b>Mouse</b></td><td><span class=3D"tag">Perif=C3=A9ri=
+cos</span></td><td>R$&nbsp;70,00</td><td>15</td><td><b>R$&nbsp;1.050,00</b>=
+</td></tr><tr><td>02/02/2026</td><td><b>Teclado</b></td><td><span class=3D"=
+tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;150,00</td><td>10</td><td><b>R=
+$&nbsp;1.500,00</b></td></tr><tr><td>30/01/2026</td><td><b>SSD</b></td><td>=
+<span class=3D"tag">Componente</span></td><td>R$&nbsp;250,00</td><td>5</td>=
+<td><b>R$&nbsp;1.250,00</b></td></tr><tr><td>28/01/2026</td><td><b>Cabo VGA=
+</b></td><td><span class=3D"tag">Cabeamento</span></td><td>R$&nbsp;15,00</t=
+d><td>8</td><td><b>R$&nbsp;120,00</b></td></tr><tr><td>25/01/2026</td><td><=
+b>Roteador</b></td><td><span class=3D"tag">Rede</span></td><td>R$&nbsp;120,=
+00</td><td>5</td><td><b>R$&nbsp;600,00</b></td></tr><tr><td>20/01/2026</td>=
+<td><b>Mem=C3=B3ria RAM</b></td><td><span class=3D"tag">Componente</span></=
+td><td>R$&nbsp;350,00</td><td>9</td><td><b>R$&nbsp;3.150,00</b></td></tr><t=
+r><td>18/01/2026</td><td><b>Cabo USB</b></td><td><span class=3D"tag">Cabeam=
+ento</span></td><td>R$&nbsp;20,00</td><td>20</td><td><b>R$&nbsp;400,00</b><=
+/td></tr><tr><td>15/01/2026</td><td><b>Placa de rede</b></td><td><span clas=
+s=3D"tag">Rede</span></td><td>R$&nbsp;20,00</td><td>5</td><td><b>R$&nbsp;10=
+0,00</b></td></tr><tr><td>08/01/2026</td><td><b>Mouse</b></td><td><span cla=
+ss=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;70,00</td><td>5</td><td>=
+<b>R$&nbsp;350,00</b></td></tr><tr><td>02/01/2026</td><td><b>Teclado</b></t=
+d><td><span class=3D"tag">Perif=C3=A9ricos</span></td><td>R$&nbsp;150,00</t=
+d><td>7</td><td><b>R$&nbsp;1.050,00</b></td></tr></tbody></table></div><div=
+ class=3D"table-meta" id=3D"contagem">Exibindo 88 de 88 registros de vendas=
+.</div></section>
+<div class=3D"footer">Projeto Integrador =E2=80=A2 Dashboard de Vendas =E2=
+=80=94 Loja de Inform=C3=A1tica</div>
+</main></div>
+</body></html>
+------MultipartBoundary--Z3IKd2ih53XQsn622F5BeYHZIDzKDC62QedCq1OzDw----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5edda950-3d8e-4bc8-858d-23b11792e1fa@mhtml.blink
+
+@charset "utf-8";
+
+:root { --navy: #142d4e; --blue: #2563eb; --cyan: #0ea5e9; --green: #16a34a=
+; --bg: #f3f6fb; --ink: #172b4d; --muted: #64748b; --line: #e5eaf2; --white=
+: #fff; }
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; background: var(--bg); font-family: Inter, "Segoe UI", =
+Arial, sans-serif; color: var(--ink); }
+
+.shell { display: flex; min-height: 100vh; }
+
+.sidebar { width: 245px; background: var(--navy); color: rgb(255, 255, 255)=
+; padding: 26px 18px; flex-shrink: 0; }
+
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 800; f=
+ont-size: 17px; letter-spacing: 0.5px; }
+
+.brand-icon { width: 42px; height: 42px; border-radius: 12px; background: r=
+gb(255, 255, 255); color: var(--navy); display: grid; place-items: center; =
+font-size: 22px; }
+
+.side-label { font-size: 10px; letter-spacing: 1.5px; color: rgb(157, 177, =
+203); margin: 38px 10px 12px; }
+
+.nav { padding: 12px 13px; border-radius: 9px; background: rgb(37, 70, 110)=
+; font-size: 13px; font-weight: 600; }
+
+.side-note { font-size: 12px; line-height: 1.6; color: rgb(189, 204, 224); =
+margin: 24px 10px; }
+
+main { flex: 1 1 0%; min-width: 0px; padding: 30px 34px 24px; }
+
+.top { display: flex; justify-content: space-between; align-items: flex-sta=
+rt; gap: 15px; margin-bottom: 24px; }
+
+.eyebrow { color: var(--blue); font-size: 11px; font-weight: 800; letter-sp=
+acing: 1.4px; text-transform: uppercase; }
+
+.top h1 { font-size: 27px; margin: 7px 0px 5px; }
+
+.sub { font-size: 13px; color: var(--muted); }
+
+.status { background: rgb(232, 247, 237); color: rgb(22, 128, 59); padding:=
+ 8px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; }
+
+.filters { display: flex; align-items: end; gap: 14px; flex-wrap: wrap; bac=
+kground: rgb(255, 255, 255); border: 1px solid var(--line); padding: 15px 1=
+7px; border-radius: 13px; margin-bottom: 18px; box-shadow: rgba(20, 45, 78,=
+ 0.03) 0px 3px 12px; }
+
+.field { display: flex; flex-direction: column; gap: 6px; }
+
+.field label { font-size: 11px; color: var(--muted); font-weight: 700; }
+
+.field select, .field input { border: 1px solid rgb(217, 225, 236); border-=
+radius: 8px; padding: 9px 11px; background: rgb(255, 255, 255); color: var(=
+--ink); font-style: inherit; font-variant: inherit; font-weight: inherit; f=
+ont-stretch: inherit; line-height: inherit; font-family: inherit; font-opti=
+cal-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font=
+-feature-settings: inherit; font-variation-settings: inherit; font-language=
+-override: inherit; font-size: 12px; min-width: 170px; }
+
+.reset { border: 0px; background: rgb(237, 243, 255); color: var(--blue); f=
+ont-weight: 700; border-radius: 8px; padding: 10px 14px; cursor: pointer; }
+
+.kpis { display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)); =
+gap: 16px; margin-bottom: 18px; }
+
+.kpi, .panel { background: rgb(255, 255, 255); border: 1px solid var(--line=
+); border-radius: 13px; box-shadow: rgba(20, 45, 78, 0.03) 0px 3px 12px; }
+
+.kpi { padding: 19px 21px; position: relative; overflow: hidden; }
+
+.kpi::after { content: ""; position: absolute; width: 5px; left: 0px; top: =
+0px; bottom: 0px; background: var(--blue); }
+
+.kpi:nth-child(2)::after { background: var(--green); }
+
+.kpi-label { font-size: 11px; color: var(--muted); font-weight: 700; text-t=
+ransform: uppercase; letter-spacing: 0.7px; }
+
+.kpi-value { font-size: 27px; font-weight: 800; margin: 9px 0px 4px; letter=
+-spacing: -0.6px; }
+
+.kpi-foot { font-size: 11px; color: var(--muted); }
+
+.charts { display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr))=
+; gap: 16px; margin-bottom: 16px; }
+
+.panel { padding: 18px; min-width: 0px; }
+
+.panel h2 { font-size: 14px; margin: 0px 0px 5px; }
+
+.hint { font-size: 11px; color: var(--muted); margin-bottom: 14px; }
+
+.chart { width: 100%; height: 245px; display: block; overflow: visible; }
+
+.axis { stroke: rgb(232, 237, 244); stroke-width: 1; }
+
+.axis-text { fill: rgb(132, 146, 166); font-size: 10px; }
+
+.line { fill: none; stroke: rgb(37, 99, 235); stroke-width: 3; stroke-linec=
+ap: round; stroke-linejoin: round; }
+
+.area { fill: url("#fade"); }
+
+.dot { fill: rgb(37, 99, 235); stroke: white; stroke-width: 2; }
+
+.bar { fill: rgb(57, 120, 231); }
+
+.bar2 { fill: rgb(18, 163, 107); }
+
+.bar-label { fill: rgb(100, 116, 139); font-size: 10px; }
+
+.bar-value { fill: rgb(51, 65, 85); font-size: 10px; font-weight: 700; }
+
+.table-panel { margin-bottom: 16px; }
+
+.table-wrap { overflow: auto; }
+
+table { border-collapse: collapse; width: 100%; font-size: 12px; white-spac=
+e: nowrap; }
+
+th { text-align: left; color: rgb(100, 116, 139); font-size: 10px; text-tra=
+nsform: uppercase; letter-spacing: 0.6px; background: rgb(248, 250, 252); p=
+adding: 11px; }
+
+td { padding: 11px; border-top: 1px solid rgb(237, 241, 246); }
+
+tbody tr:hover { background: rgb(248, 251, 255); }
+
+.tag { background: rgb(237, 243, 255); color: rgb(39, 89, 169); padding: 4p=
+x 8px; border-radius: 20px; font-size: 10px; font-weight: 700; }
+
+.table-meta { font-size: 11px; color: var(--muted); margin-top: 12px; }
+
+.footer { text-align: center; color: rgb(138, 151, 169); font-size: 10px; p=
+adding: 8px; }
+
+@media (max-width: 900px) {
+  .sidebar { width: 195px; }
+  main { padding: 24px 20px; }
+  .charts { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .shell { display: block; }
+  .sidebar { width: 100%; padding: 15px 18px; }
+  .side-label, .side-note, .nav { display: none; }
+  main { padding: 20px 13px; }
+  .top h1 { font-size: 22px; }
+  .status { display: none; }
+  .kpis { gap: 9px; }
+  .kpi { padding: 15px 13px; }
+  .kpi-value { font-size: 20px; }
+  .filters { gap: 10px; }
+  .field, .field select, .field input { width: 100%; }
+  .field select, .field input { min-width: 0px; }
+  .charts { gap: 11px; }
+  .panel { padding: 14px; }
+  .chart { height: 220px; }
+}
+------MultipartBoundary--Z3IKd2ih53XQsn622F5BeYHZIDzKDC62QedCq1OzDw------
